@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: rgb(61,49,168);
+    background-image: linear-gradient(112deg, rgb(61, 49, 168) 0%, rgb(174, 52, 125) 100%);
+    height: 80vh;
+    position: relative;
+    background-blend-mode: color;
+}
+
+nav .nav-logo img{
+    width: 100%;
+    max-width: 20rem;
+    filter: drop-shadow(1px 1px 0 rgb(253, 253, 253));
+}
+
+header .uppernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .uppernav ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+}
+
+header .uppernav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header .container .sidebar{
+    position: absolute;
+    background-color: #2b2a4c79;
+    padding: 10px;
+    top: 40%;
+    left: 20%;
+    box-shadow: 10px 10px rgb(141, 2, 111);;
+}
+
+header .container .sidebar ul li a{
+    text-decoration: none;
+    color: #3f038f;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.mainNavData{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    justify-content: space-evenly;
+    z-index: 9999;
+    background-color: #fff;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 34px -10px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
+    box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
+    border-radius: 2%;
+}
+
+.mainNavData ul li{
+    padding: 0 15px;
+    list-style: none;
+}
+.mainNavData ul li a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.mainNavData ul{
+    display: flex;
+
+    align-items: center;
+}
+
+.hiddenLogo{
+    display: none;
+}
+
+header .container .sidebar ul li a:nth-child(1){
+    color: #ffffff;
+}
+
+header .container .sidebar ul li:nth-child(1){
+    background-color: rgb(43, 44, 44);
+    color: #fff !important;
+}
+header .container .sidebar ul li:nth-child(2){
+    background-color: rgb(43, 44, 44);
+    color: #fff !important;
+}
+
+header .container .sidebar ul li{
+    list-style: none;
+}
+
+.maindesign img{
+    position: absolute;
+    width: 100%;
+    max-width: 40rem;
+    right: 10%;
+}
+
+section.cardList{
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+section.newData{
+    position: relative;
+    padding: 8rem 0 0 0;
+}
+
+section.newData .container .row .col ul li{
+    padding: 5px 10px;
+    margin: 15px 0;
+    -webkit-box-shadow: 0px 2px 34px -10px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
+box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
+}
+
+.bandageHeader{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bandageHeaderTitle{
+    font-size: 60px;
+}
+
+.bandageDiscText{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.contactSection{
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contactForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactForm form .btn{ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.sendBtn{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+}
+
+.contactForm form{
+    padding: 10px;
+}
+
+.contactForm form .btn a{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nameInput{
+    padding: 15px 25px;
+    
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nameInput input{
+    padding: 30px 15px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    font-size: 19px;
+    margin-left: 25px;
+    color: #00aca9;
+}
+
+.emailInput{
+    width: 100%;
+    height: 80px;
+
+
+}
+
+.emailInput input{
+    padding: 30px 15px;
+    width: 528px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    font-size: 19px;
+    margin-left: 25px;
+    color: #00aca9;
+}
+
+.phoneInput{
+    width: 100%;
+    height: 80px;
+}
+
+.phoneInput input{
+    padding: 30px 15px;
+    width: 528px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    font-size: 19px;
+    margin-left: 25px;
+    color: #00aca9;
+}
+
+
+.phoneInput input:hover::placeholder,.nameInput input:hover::placeholder, .emailInput input:hover::placeholder{
+    color: #0FC2C0;
+}
+
+.messageArea{
+    width: 100%;
+    height: 130px;
+}
+
+.messageArea textarea{
+    padding: 30px 15px;
+    width: 528px;
+    height: 90px;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    font-size: 19px;
+    margin-left: 25px;
+    color: #00aca9;
+}
+
+@media (max-width: 768px) {
+    .mainNavData{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+    .img-data{
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .newData{
+        padding-top: 250px !important;
+    }
+}
