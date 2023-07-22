@@ -1,0 +1,46 @@
+
+
+@media (max-width: 1200px){
+    header .container .sidebar{
+        width: 100%;
+    }
+
+    header{
+        height: 100vh;
+    }
+    .whiteCard{
+        width:80% !important;
+        flex-wrap: nowrap !important;
+        margin: 0;
+    }
+
+    section.cardList{
+    display: flex;
+    justify-content: center;
+    }
+}
+@media (max-width: 991px){
+
+    .whiteCard{
+        width:35% !important;
+        flex-wrap: nowrap !important;
+        margin: 0;
+    }
+    section.cardList{
+        display:flex;
+        justify-content: start;
+        }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 617px){
+
+}
+@media (max-width: 450px){
+
+}
+@media (max-width: 365px){
+
+}
+
