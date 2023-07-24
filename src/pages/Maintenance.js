@@ -14,7 +14,7 @@ const Maintenance = () => {
           <img src="./assets/3d pic.PNG" alt="Construction website picture" />
         </div>
         <div class="maintenance">
-          <h1>Under Maintenance</h1>
+          <h1>Under Maintenance</h1> 
           <i>Our website is under construction, we are working very hard to give you the best experience with this one.</i>
         </div>
       </section>

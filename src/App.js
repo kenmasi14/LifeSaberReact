@@ -9,25 +9,27 @@ import Maintenance from './pages/Maintenance';
 import MedicinePage from './pages/MedicinePage';
 import FirstAidKit from './pages/FirstAidKit';
 import About from './pages/About';
+import LoginPage from './pages/LoginPage';
 
 
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-          <Route index element={<MainPage/>}/>
-          <Route path='/' element={<MainPage/>}/>
-          <Route path='/bandage' element={<BandagePage/>}/>
-          <Route path='/medicine' element={<MedicinePage/>}/>
-          <Route path='/FirstAidKit' element={<FirstAidKit/>}/>
-          <Route path='/Maintenance' element={<Maintenance/>}/>
-          <Route path='/About' element={<About/>}/>
-          <Route path='/Contact' element={<Contact/>}/>
-          <Route path='/*' element={<ErrorPage/>}/>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<MainPage />} />
+          <Route path='/' element={<MainPage />} />
+          <Route path='/LoginPage' element={<LoginPage />} />
+          <Route path='/bandage' element={<BandagePage />} />
+          <Route path='/medicine' element={<MedicinePage />} />
+          <Route path='/FirstAidKit' element={<FirstAidKit />} />
+          <Route path='/Maintenance' element={<Maintenance />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/*' element={<ErrorPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
