@@ -19,7 +19,7 @@ function Navbar() {
                             </div>
                         </li>
                         <li>
-                            <Link to="/LoginPage"><div class="user-icon"><FontAwesomeIcon icon={faUser} /></div></Link>
+                            <Link to="/login"><div class="user-icon"><FontAwesomeIcon icon={faUser} /></div></Link>
                         </li>
                     </ul>
                 </nav>
