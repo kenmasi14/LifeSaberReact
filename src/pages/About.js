@@ -25,7 +25,7 @@ const About = () => {
                     <div class="col mb-3">
                         <div class="container">
                             <div class="card" style={{maxWidth: "400px"}}>
-                              <img src="assets/356800497_766919915214712_2532550802042611319_n.jpg" class="" alt="Profile Image" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
+                              <img src="assets/356800497_766919915214712_2532550802042611319_n.jpg" class="" alt="Profile" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
                               <div class="card-body">
                                 <h5 class="card-title">JAN KENZI M. MASANGKAY</h5>
                                 <p class="card-text">Web Developer</p>
@@ -34,7 +34,7 @@ const About = () => {
                                   <li class="list-group-item">Experience: Trainee</li>
                                   <li class="list-group-item">Skills: HTML, CSS, JavaScript</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Contact</a>
+                                <button class="btn btn-primary">Contact</button>
                               </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const About = () => {
                     <div class="col mb-3">
                         <div class="container">
                             <div class="card" style={{maxWidth: "400px"}}>
-                              <img src="assets/received_4228207313905224.jpg" class="" alt="Profile Image" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
+                              <img src="assets/received_4228207313905224.jpg" class="" alt="Profile" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
                               <div class="card-body">
                                 <h5 class="card-title">JESTONIE A. LACADEN</h5>
                                 <p class="card-text">Web Developer</p>
@@ -51,7 +51,7 @@ const About = () => {
                                   <li class="list-group-item">Experience: Trainee</li>
                                   <li class="list-group-item">Skills: HTML, CSS, JavaScript</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Contact</a>
+                                <button class="btn btn-primary">Contact</button>
                               </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const About = () => {
                     <div class="col mb-3">
                         <div class="container">
                             <div class="card" style={{maxWidth: "400px"}}>
-                              <img src="assets/357628110_207714595109853_2921450444612138088_n.jpg" class="" alt="Profile Image" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
+                              <img src="assets/357628110_207714595109853_2921450444612138088_n.jpg" class="" alt="Profile" style={{maxWidth: '450px', backgroundColor: 'blueviolet', objectFit: 'cover'}}/>
                               <div class="card-body">
                                 <h5 class="card-title">NERLIE R. DIMAPILIS</h5>
                                 <p class="card-text">Web Developer</p>
@@ -68,7 +68,7 @@ const About = () => {
                                   <li class="list-group-item">Experience: Trainee</li>
                                   <li class="list-group-item">Skills: HTML, CSS, JavaScript</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Contact</a>
+                                <button class="btn btn-primary">Contact</button>
                               </div>
                             </div>
                         </div>

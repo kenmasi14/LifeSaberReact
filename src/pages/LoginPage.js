@@ -1,6 +1,6 @@
 import React from 'react'
-import "../components/LoginPage.css"
-import "../components/LoginPage.js"
+//import "../components/LoginPage.css"
+//import "../components/LoginPageFunction"
 
 const LoginPage = () => {
     return (
@@ -18,7 +18,7 @@ const LoginPage = () => {
                             <input type="password" placeholder="Password" />
                         </div>
                         <input type="submit" value="Login" class="btn" />
-                        <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+                        <p class="account-text">Don't have an account? <button id="sign-up-btn2">Sign up</button></p>
                     </form>
                     <form action="" class="sign-up-form">
                         <h2 class="title">Sign up</h2>
@@ -35,7 +35,7 @@ const LoginPage = () => {
                             <input type="password" placeholder="Password" />
                         </div>
                         <input type="submit" value="Sign up" class="btn" />
-                        <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+                        <p class="account-text">Already have an account? <button id="sign-in-btn2">Sign in</button></p>
                     </form>
                 </div>
                 <div class="panels-container">
