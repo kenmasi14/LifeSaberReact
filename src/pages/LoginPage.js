@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "../components/LoginPage.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLock, faUser } from "@fortawesome/free-solid-svg-icons";
-import NavbarOther from '../components/NavbarOther'
 
 
 const LoginPage = () => {
@@ -29,7 +28,6 @@ const LoginPage = () => {
 
     return (
         <>
-            <NavbarOther></NavbarOther>
             <div className='bgLogin'>
                 <div className={`containerLogin ${isSignUpMode ? 'sign-up-mode' : ''} ${isSignUpMode2 ? 'sign-up-mode' : ''}`}>
                     <div class="signin-signup">
