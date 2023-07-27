@@ -95,6 +95,11 @@ header .container .sidebar ul li a:hover{
     -moz-box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     border-radius: 2%;
+    left: 10%;
+}
+
+.mainNavData ul{
+    display: flex;
 }
 
 .mainNavData ul li{
