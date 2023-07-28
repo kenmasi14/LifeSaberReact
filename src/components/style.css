@@ -95,6 +95,11 @@ header .container .sidebar ul li a:hover{
     -moz-box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     border-radius: 2%;
+    left: 14%;
+}
+
+.mainNavData ul{
+    display: flex;
 }
 
 .mainNavData ul li{
@@ -298,7 +303,7 @@ box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     color: #00aca9;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .mainNavData{
         flex-direction: column;
     }
@@ -312,7 +317,7 @@ box-shadow: 0px 2px 34px -13px rgba(0,0,0,0.59);
     header .container .sidebar{
         width: 100%;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .newData{

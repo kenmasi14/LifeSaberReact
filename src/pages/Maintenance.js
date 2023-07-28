@@ -11,7 +11,7 @@ const Maintenance = () => {
     <div class="container containerBG">
       <section>
         <div class="image">
-          <img src="./assets/3d pic.PNG" alt="Construction website picture" />
+          <img src="./assets/3d pic.PNG" alt="Construction website" />
         </div>
         <div class="maintenance">
           <h1>Under Maintenance</h1> 

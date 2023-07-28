@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body {
+.bgLogin {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     background-image: linear-gradient(112deg, rgb(61, 49, 168) 0%, rgb(174, 52, 125) 100%);
     background-blend-mode: color;
 }
-.container {
+.containerLogin {
     position: relative;
     width: 70vw;
     height: 80vh;
@@ -22,7 +22,7 @@ body {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
-.container::before {
+.containerLogin::before {
     content: "";
     position: absolute;
     top: 0;
@@ -195,38 +195,38 @@ a {
     display: none;
 }
 /*Animation*/
-.container.sign-up-mode::before {
+.containerLogin.sign-up-mode::before {
     transform: translateX(0);
 }
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
+.containerLogin.sign-up-mode .right-panel .image,
+.containerLogin.sign-up-mode .right-panel .content {
     transform: translateX(300%);
 }
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content {
+.containerLogin.sign-up-mode .left-panel .image,
+.containerLogin.sign-up-mode .left-panel .content {
     transform: translateX(0);
 }
-.container.sign-up-mode form.sign-in-form {
+.containerLogin.sign-up-mode form.sign-in-form {
     opacity: 0;
 }
-.container.sign-up-mode form.sign-up-form {
+.containerLogin.sign-up-mode form.sign-up-form {
     opacity: 1;
 }
-.container.sign-up-mode .right-panel {
+.containerLogin.sign-up-mode .right-panel {
     pointer-events: none;
 }
-.container.sign-up-mode .left-panel {
+.containerLogin.sign-up-mode .left-panel {
     pointer-events: all;
 }
 /*Responsive*/
 @media (max-width:779px) {
-    .container {
+    .containerLogin {
         width: 100vw;
         height: 100vh;
     }
 }
 @media (max-width:635px) {
-    .container::before {
+    .containerLogin::before {
         display: none;
     }
     form {
@@ -235,11 +235,11 @@ a {
     form.sign-up-form {
         display: none;
     }
-    .container.sign-up-mode2 form.sign-up-form {
+    .containerLogin.sign-up-mode2 form.sign-up-form {
         display: flex;
         opacity: 1;
     }
-    .container.sign-up-mode2 form.sign-in-form {
+    .containerLogin.sign-up-mode2 form.sign-in-form {
         display: none;
     }
     .panels-container {

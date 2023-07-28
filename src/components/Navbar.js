@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faUser } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -19,7 +18,7 @@ function Navbar() {
                             </div>
                         </li>
                         <li>
-                            <Link to="/LoginPage"><div class="user-icon"><FontAwesomeIcon icon={faUser} /></div></Link>
+                            <Link to="/login"><div class="user-icon"><FontAwesomeIcon icon={faUser} /></div></Link>
                         </li>
                     </ul>
                 </nav>

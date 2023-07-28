@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route index element={<MainPage />} />
           <Route path='/' element={<MainPage />} />
-          <Route path='/LoginPage' element={<LoginPage />} />
+          <Route path='/login' element={<LoginPage />} />
           <Route path='/bandage' element={<BandagePage />} />
           <Route path='/medicine' element={<MedicinePage />} />
           <Route path='/FirstAidKit' element={<FirstAidKit />} />
